@@ -40,6 +40,7 @@
 .sBarE2 p{
     margin-top: 25px;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 .sBarE3{
     font-size: 20px;
@@ -47,9 +48,25 @@
     font-family: 'Poppins', sans-serif;
     color:#474444;
     margin-bottom: 10px;
+    cursor: pointer;
 }
+
+.sBarE2 p 
 hr{
-    width: 70%;
-    border: 1px solid black;
-    
+    width: 70%;    
 }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+

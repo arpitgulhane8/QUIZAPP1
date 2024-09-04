@@ -1,13 +1,22 @@
-
+import React from 'react';
+import { Route, Routes,BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Auth from './components/Auth/Auth';
-import CreateQuize from './components/Dashbord/CreateQuize';
 import Dashbord from './components/Dashbord/Dashbord';
+import QuizInterface from './components/quiz_display/QuizQuestion';
+
+
 
 function App() {
   return (
-    <div className="App">
-     <CreateQuize/>
+    <div className='App'>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/Dashboard" element={<Dashbord />}  />
+          <Route path="/api/quiz/solve/:quizId" element={<QuizInterface/>} />
+          <Route path="/" element={<Auth />}/>
+        </Routes>  
+      </BrowserRouter>
     </div>
   );
 }
