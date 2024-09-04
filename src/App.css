@@ -1,6 +1,12 @@
+.body{
+  margin: 0%;
+}
+
 .App {
   text-align: center;
+  margin-top: 0%;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +42,5 @@
     transform: rotate(360deg);
   }
 }
+
+

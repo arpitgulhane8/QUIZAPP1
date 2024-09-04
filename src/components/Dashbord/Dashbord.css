@@ -1,0 +1,55 @@
+.dashbord{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.slidebar{
+    width:20% ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.display{
+    width: 80%;
+    height: 100%;
+    background-color:#EDEDED;
+}
+
+.sBarE1{
+    margin-top: 5px;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: "Jomhuria";
+    color:#474444;
+}
+
+.sBarE2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color:#474444;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sBarE2 p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.sBarE3{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    color:#474444;
+    margin-bottom: 10px;
+}
+hr{
+    width: 70%;
+    border: 1px solid black;
+    
+}
