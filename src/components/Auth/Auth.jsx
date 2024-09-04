@@ -9,7 +9,7 @@ function Auth() {
   return (
     <div className='auth'>
       <div className='authContainer'>
-        <p className='quizze'>QUIZZIE</p>
+        <p className='auth_quizze'>QUIZZIE</p>
         <div className='a_groupBtn'>
           <button className='a_btn' onClick={() => setIsLogin(false)}>Sign Up</button>
           <button className='a_btn' onClick={() => setIsLogin(true)}>Login</button>
